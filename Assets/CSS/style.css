@@ -339,10 +339,13 @@ article.green .button-full {
         font-size: 0.8rem;
     }
 
-.salle-description{
-    font-size: 0.8rem;
-}
+    .salle-description {
+        font-size: 0.8rem;
+    }
 
-.h3 {
-    font-size: 0;
+    .h3 {
+        font-size: 0;
+    }
+
+
 }
