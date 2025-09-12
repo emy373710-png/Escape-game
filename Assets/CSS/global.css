@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+AU+QLD:wght@100..400&display=swap');
+
+@font-face {
+    font-family: InknutAntiqua;
+    src: url('/Assets/Font/InknutAntiqua-Regular.ttf');
+}
+
+@font-face {
+    font-family: Atma;
+    src: url('/Assets/Font/Atma-Medium.ttf');
+}
+
+p,
+li,
+div,
+a {
+    font-family: Atma;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: InknutAntiqua;
+    color: white;
+}
+
+a,
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/* header */
+
+header {
+    background-color: #0A0A09;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 20px;
+    /* max-width: 1200px; */
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.header li a {
+    color: white;
+}
+
+/* header */
+
+
+/* Footer */
+
+footer {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.logo-footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo-footer {
+    width: 90px;
+    height: auto;
+
+}
+
+.footer-nous-contacter {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.footer-icons-contact {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.footer-icons {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-icons-container {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.footer-icons-container {
+    font-size: 1.3rem;
+}
+
+.footer-copyright {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.footer-copyright hr {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.copyright-text {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0A0A09;
+    text-align: center;
+}
+
+/* Footer*/
+
+@media screen and (max-width: 480px) {
+    .header {
+        flex-direction: row;
+        align-items: center;
+        font-size: 10px;
+        height: auto;
+        gap: 10px;
+    }
+
+    .footer-icons-contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    
+}

@@ -1,0 +1,127 @@
+/*******************
+******* HERO *******
+********************/
+#section-1 {
+    padding-top: 1rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 4rem;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/Assets/Img/horloges.jpg);
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title-main {
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-description {
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.button-full {
+    display: block;
+    height: 40px;
+    width: fit-content;
+    align-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #48636A;
+    /* border: 2px solid #48636A; */
+    margin-top: 2rem;
+}
+
+/*******************
+***** OBJECTIF *****
+********************/
+section {
+    width: 80%;
+    margin: auto;
+}
+
+.title-secondary-container {
+    display: flex;
+    align-items: center;
+}
+
+.title-secondary-container span {
+    flex: 1;
+    height: 1px;
+    background-color: white;
+}
+
+.title-secondary {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: max-content;
+    padding: 0 3rem;
+}
+
+.text {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.images>div {
+    width: 100%;
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        font-size: 0.5rem;
+        align-items: center;
+    }
+
+    .title-main {
+        font-size: 1.5rem;
+    }
+
+    .title-secondary {
+        font-size: 1.3rem;
+    }
+
+    .images {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .image {
+        width: 100%;
+        height: 350px;
+    }
+
+    .footer-icons-contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+
+    }
+}

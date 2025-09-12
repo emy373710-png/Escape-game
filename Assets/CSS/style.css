@@ -1,0 +1,348 @@
+/*******************
+******* HERO *******
+********************/
+#section-1 {
+    padding-top: 1rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 4rem;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/Assets/Img/horloges.jpg);
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title-main {
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-description {
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.button-full {
+    display: block;
+    height: 40px;
+    width: fit-content;
+    align-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #48636A;
+    /* border: 2px solid #48636A; */
+}
+
+.bouton-white {
+    background-color: #fff;
+    color: #000;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/*******************
+***** OBJECTIF *****
+********************/
+section {
+    width: 80%;
+    margin: auto;
+}
+
+.title-secondary-container {
+    display: flex;
+    align-items: center;
+}
+
+.title-secondary-container span {
+    flex: 1;
+    height: 1px;
+    background-color: white;
+}
+
+.title-secondary {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: max-content;
+    padding: 0 3rem;
+}
+
+.salles {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.salles article {
+    width: calc(50% - 1.5rem);
+    height: 100%;
+    border-radius: 0.4rem;
+    background-color: white;
+}
+
+.salles article.green {
+    background-color: #48636A;
+}
+
+.salles article img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.salle-description {
+    padding: 1.5rem
+}
+
+.salle-description h3 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.salle-description p {
+    color: black;
+}
+
+article.green h3,
+article.green p {
+    color: white;
+}
+
+.container-btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.button-empty {
+    display: block;
+    height: 40px;
+    width: fit-content;
+    align-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px solid #48636A;
+    background-color: transparent;
+    color: #48636A;
+}
+
+article.green .button-empty {
+    border: 2px solid white;
+    color: white;
+}
+
+article.green .button-full {
+    background-color: white;
+    border: 2px solid white;
+    color: #48636A;
+}
+
+
+
+/****phrase+cta découvrir nos salles******
+*******************************/
+
+
+.section-tarifs {
+    display: block;
+}
+
+.information-text-salle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-bottom: 0 auto;
+}
+
+.text-salle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.text-button {
+    display: flex;
+    justify-content: center;
+}
+
+/**********FIN**************
+***************************/
+
+/* section le concept */
+.block-le-concept {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.le-concept-icons {
+    flex: 1 1 200px;
+    max-width: 250px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.le-concept-icons-container {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* FIN */
+
+/* les tarifs */
+
+.les-tarifs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+
+}
+
+.section-tarifs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+    margin: 3rem auto;
+}
+
+.information-tarifs {
+    background-color: #48636A;
+    border: 0.1rem solid rgb(255, 255, 255);
+    color: white;
+    font-size: 20px;
+    width: 220px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.information-tarifs {
+    transition: transform 0.3s ease;
+}
+
+.information-tarifs:hover {
+    transform: translateY(-10px) scale(1.05);
+    background-color: #FFFFFF;
+}
+
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.bouton-white:hover {
+    background-color: #48636A;
+    color: white;
+
+}
+
+.information-tarifs:hover p {
+    color: #000;
+}
+
+.information-tarifs:hover .bouton-white {
+    background-color: #48636A;
+    color: white;
+}
+
+.information-tarifs {
+    border: #48636A solid 0.2rem;
+}
+
+/*  */
+
+
+
+/*  */
+
+
+/* responsive tablet */
+@media screen and (max-width: 768px) {
+
+    .header {
+        font-size: 0.7rem;
+    }
+
+    .title-main {
+        font-size: 1.5rem;
+    }
+
+    .title-secondary {
+        font-size: 1.3rem;
+    }
+
+    section {
+        width: 90%;
+    }
+
+    .salles article {
+        width: 100%;
+    }
+
+    .footer-icons-contact {
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1.5rem;
+    }
+}
+
+/* mobile  */
+@media screen and (max-width: 320px) {
+
+    .header {
+        font-size: 0.5rem;
+    }
+
+    .title-main {
+        font-size: 1.2rem;
+    }
+
+    .hero-description {
+        font-size: 0.9rem;
+    }
+
+    .button-full.mobile {
+        font-size: 0.8rem;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+
+    }
+
+    .title-secondary {
+        font-size: 0.8rem;
+    }
+
+.salle-description{
+    font-size: 0.8rem;
+}
+
+.h3 {
+    font-size: 0;
+}

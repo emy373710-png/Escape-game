@@ -1,0 +1,365 @@
+/* section-1 */
+
+/*******************
+******* HERO *******
+********************/
+.hero-description {
+    width: 80%;
+}
+
+.section-1-buttons {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 1rem;
+    margin-top: 2.5rem;
+}
+
+.button-full {
+    display: block;
+    height: 40px;
+    width: fit-content;
+    align-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #48636A;
+    border: 2px solid #48636A;
+}
+
+.button-empty {
+    display: block;
+    height: 40px;
+    width: fit-content;
+    align-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+}
+
+#section-1 {
+    padding-top: 1rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 4rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/Assets/Img/manoir-2.png);
+    background-size: cover;
+}
+
+.section-1-element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1.5rem;
+    height: 60px;
+}
+
+.section-1-img {
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.horaires-cta {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.horaires-cta-button-full {
+    align-items: center;
+    background-color: #48636A;
+    border-radius: 3px;
+    padding: 1rem 2rem;
+}
+
+.horaires-cta-button-empty {
+    align-items: center;
+    border-radius: 3px;
+    padding: 1rem 2rem;
+    border: 1px solid white;
+}
+
+
+/* Title principale */
+
+.title-main {
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Title secondaire */
+.title-secondary-container {
+    display: flex;
+    align-items: center;
+}
+
+.title-secondary-container span {
+    flex: 1;
+    height: 1px;
+    background-color: white;
+}
+
+.title-secondary {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: max-content;
+    padding: 0 3rem;
+}
+
+/* Title secondary */
+
+.title-secondary-2 {
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+
+
+/* Article */
+
+article {
+    padding-top: 1px;
+    width: 80%;
+    margin: auto;
+}
+
+/* Article */
+
+
+/* Images */
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.images>div {
+    width: 100%;
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* images */
+
+
+/* section-2-decouvrez-la-salle */
+
+.section-2-decouvrez-la-salle p {
+    margin-bottom: 1rem;
+    max-width: 80%;
+}
+
+
+/* section-2-decouvrez-la-salle */
+
+/* horaires */
+
+.horaires {
+    width: 80%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.horaires-container {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 2rem;
+}
+
+.horaires-container-icon {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: #48636A;
+    padding: 1rem;
+}
+
+.horaires-container-icon i {
+    font-size: 25px;
+    align-items: center;
+}
+
+.horaires-container-text {
+    justify-items: center;
+    background-color: #D9D9D9;
+    flex-grow: 2;
+    padding: 1rem 1rem;
+}
+
+.horaires-container-text p {
+    color: black;
+}
+
+/* horaires */
+
+/* horaires disponibilite */
+
+.horaires-heures {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-items: 0 auto;
+}
+
+.horaires-heures-disponibilite {
+    min-width: 150px;
+    text-align: center;
+    flex: 1 1 calc(25% - 15px);
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.horaires-heures-disponibilite p {
+    color: grey;
+    font-size: 1.1rem;
+}
+
+.horaires-heures-disponibilite.available {
+    background-color: #48636A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horaires-heures-disponibilite.available p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.horaires-heures-disponibilite {
+    transition: transform 0.3s ease;
+}
+
+.horaires-heures-disponibilite:hover {
+    transform: translateY(-4px) scale(1.02);
+}
+
+/* horaires disponibilite */
+
+/****Nos salles mystiques******
+*******************************/
+
+
+
+/**********FIN**************
+***************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************
+********* responstive *********
+*******************************/
+
+
+@media screen and (max-width: 768px) {
+
+    /*******************
+    ******* HERO *******
+    ********************/
+
+    .header {
+        font-size: 0.5rem;
+        align-items: center;
+    }
+
+
+    .hero-description {
+        width: 100%;
+    }
+
+    .section-1-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .horaires-container {
+        font-size: 12px;
+    }
+
+    .horaires-container-text {
+        font-size: 15px;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    article {
+        width: 80%;
+        padding-top: 1px;
+    }
+
+    .images {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .image {
+        width: 100%;
+        height: 350px;
+    }
+
+    .title-secondary {
+        font-size: 36px;
+    }
+
+    .title-secondary-2 {
+        font-size: 20px;
+    }
+
+    .section-2-decouvrez-la-salle p {
+        max-width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .title-main {
+        font-size: 2.5rem;
+    }
+
+    .title-secondary {
+        font-size: 1.5rem;
+    }
+
+    .section-1-buttons a {
+        display: inline-block;
+        padding: 10px 15px;
+        text-align: center;
+        min-width: 100px;
+
+    }
+
+    .text-salle h3{
+        font-size: 0.1rem;
+    }
+
+}
