@@ -325,6 +325,10 @@ article {
         height: 350px;
     }
 
+    .title-main {
+        font-size: 1.5rem;
+    }
+
     .title-secondary {
         font-size: 36px;
     }
