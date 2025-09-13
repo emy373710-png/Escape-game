@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: InknutAntiqua;
+    /* font-family: InknutAntiqua; */
     color: white;
 }
 
@@ -73,6 +73,37 @@ nav ul li a {
 .header li a {
     color: white;
 }
+
+.menu-burger {
+    display: none;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.burger-line {
+    width: 30px;
+    height: 3px;
+    margin: 3px 0;
+    border-radius: 3px;
+    background-color: blue;
+}
+
+@media screen and(max-width: 767px) {
+
+    .menu-toggle {
+        display: flex;
+        
+    }
+
+
+
+}
+
 
 /* header */
 
@@ -176,5 +207,5 @@ footer {
         align-items: center;
         gap: 1.5rem;
     }
-    
+
 }

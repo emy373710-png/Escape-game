@@ -1,6 +1,9 @@
 /*******************
 ******* HERO *******
 ********************/
+
+
+
 #section-1 {
     padding-top: 1rem;
     padding-left: 10vw;
@@ -320,6 +323,15 @@ article.green .button-full {
         font-size: 0.5rem;
     }
 
+    .logo {
+        width: 30px;
+        height: auto;
+    }
+
+    .nav {
+        margin-right: 1rem;
+    }
+
     .title-main {
         font-size: 1.2rem;
     }
@@ -336,7 +348,7 @@ article.green .button-full {
     }
 
     .title-secondary {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .salle-description {
@@ -347,5 +359,17 @@ article.green .button-full {
         font-size: 0;
     }
 
+    .logo-footer {
+        width: 60px;
+    }
+
+    .text-salle {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .copyright-text {
+        font-size: 0.5rem;
+    }
 
 }

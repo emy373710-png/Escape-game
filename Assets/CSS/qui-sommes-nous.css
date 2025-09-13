@@ -125,3 +125,72 @@ section {
 
     }
 }
+
+@media screen and (max-width: 480px) {
+
+    .logo {
+        width: 30px;
+        height: auto;
+    }
+
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .header {
+        font-size: 0.5rem;
+    }
+
+    .logo {
+        width: 30px;
+        height: auto;
+    }
+
+    .nav {
+        margin-right: 1rem;
+    }
+
+    .title-main {
+        font-size: 1.2rem;
+    }
+
+    .hero-description {
+        font-size: 0.9rem;
+    }
+
+    .button-full.mobile {
+        font-size: 0.8rem;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+
+    }
+
+    .title-secondary {
+        font-size: 1rem;
+    }
+
+    .salle-description {
+        font-size: 0.8rem;
+    }
+
+    .h3 {
+        font-size: 0;
+    }
+
+    .logo-footer {
+        width: 60px;
+    }
+
+    .text-salle {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .copyright-text {
+        font-size: 0.5rem;
+    }
+
+
+}
