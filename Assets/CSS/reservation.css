@@ -15,6 +15,17 @@
     margin-top: 2.5rem;
 }
 
+.header a {
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.header a:hover {
+    transform: scale(1.2);
+}
+
 .button-full {
     display: block;
     height: 40px;
@@ -23,7 +34,13 @@
     padding-left: 40px;
     padding-right: 40px;
     background-color: #48636A;
-    border: 2px solid #48636A;
+    /* border: 2px solid #48636A; */
+}
+
+.button-full:hover {
+    background-color: white;
+    color: #48636A;
+    transform: scale(1.1);
 }
 
 .button-empty {
@@ -35,6 +52,12 @@
     padding-right: 40px;
     border: 2px solid #ffffff;
     background-color: transparent;
+}
+
+.button-empty:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
 }
 
 #section-1 {
@@ -275,7 +298,6 @@ article {
 /******************************
 ********* responstive *********
 *******************************/
-
 
 @media screen and (max-width: 768px) {
 

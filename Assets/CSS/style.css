@@ -19,6 +19,18 @@
     width: 100%;
 }
 
+.header a {
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.header a:hover {
+    transform: scale(1.2);
+}
+
+
 .title-main {
     font-size: 2.5rem;
     margin-top: 1.5rem;
@@ -51,6 +63,23 @@
     text-decoration: none;
     display: inline-block;
     transition: background 0.3s ease, color 0.3s ease;
+}
+
+.button-full:hover {
+    background-color: white;
+    color: #48636A;
+    transform: scale(1.1);
+}
+
+.button-empty:hover {
+    color: #48636A(21, 0, 213);
+    transform: scale(1.1);
+}
+
+.salle-description .button-full-:hover {
+    background-color: #48636A;
+    color: #ffffff;
+    transform: scale(1.1);
 }
 
 /*******************
