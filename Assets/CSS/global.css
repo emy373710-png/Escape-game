@@ -36,9 +36,23 @@ li {
 
 
 /* header */
+body {
+    padding-top: 80px;
+    /* ou la hauteur réelle de ton header */
+}
 
 header {
     background-color: #0A0A09;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #0A0A09(255, 255, 255, 0.8);
+    padding: 1rem 10vw;
 }
 
 nav {

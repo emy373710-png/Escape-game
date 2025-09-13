@@ -37,10 +37,24 @@
     /* border: 2px solid #48636A; */
 }
 
-.button-full:hover {
+.button-full:hover,
+.button-empty:hover,
+.horaires-cta-button-full:hover,
+.horaires-cta-button-empty:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Styles spécifiques à chaque type */
+.button-full:hover,
+.horaires-cta-button-full:hover {
     background-color: white;
     color: #48636A;
-    transform: scale(1.1);
+}
+
+.button-empty:hover,
+.horaires-cta-button-empty:hover {
+    color: white;
 }
 
 .button-empty {
@@ -52,12 +66,6 @@
     padding-right: 40px;
     border: 2px solid #ffffff;
     background-color: transparent;
-}
-
-.button-empty:hover {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    transform: scale(1.1);
 }
 
 #section-1 {
@@ -175,6 +183,18 @@ article {
 }
 
 
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
 /* images */
 
 
@@ -274,9 +294,42 @@ article {
 
 /* horaires disponibilite */
 
-/****Nos salles mystiques******
+/****footer******
 *******************************/
+/* effet hover pour les icônes du footer */
+.footer-icons {
+    display: flex;
+    flex-direction: column;
+    /* icône au-dessus du texte */
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
 
+.footer-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.footer-icons:hover {
+    transform: translateY(-5px) scale(1.05);
+}
+
+.footer-icons:hover .footer-icons-container {
+    background-color: white;
+    color: #48636A;
+}
+
+.footer-icons:hover p {
+    color: white;
+}
 
 
 /**********FIN**************

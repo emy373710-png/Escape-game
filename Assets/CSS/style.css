@@ -3,7 +3,6 @@
 ********************/
 
 
-
 #section-1 {
     padding-top: 1rem;
     padding-left: 10vw;
@@ -82,7 +81,21 @@
     transform: scale(1.1);
 }
 
-/*******************
+.block-le-concept a {
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.block-le-concept a:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4);
+}
+
+
+
+/******************
 ***** OBJECTIF *****
 ********************/
 section {
@@ -136,6 +149,20 @@ section {
 
 .salle-description {
     padding: 1.5rem
+}
+
+.salles article {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Effet hover */
+.salles article:hover {
+    transform: translateY(-10px);
+    /* monte de 10px */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    /* ombre plus marquée */
 }
 
 .salle-description h3 {
@@ -308,12 +335,18 @@ article.green .button-full {
     border: #48636A solid 0.2rem;
 }
 
-/*  */
+.footer-icons:hover {
+    transform: translateY(-5px) scale(1.05);
+}
 
+.footer-icons:hover .footer-icons-container {
+    background-color: white;
+    color: #48636A;
+}
 
-
-/*  */
-
+.footer-icons:hover p {
+    color: white;
+}
 
 /* responsive tablet */
 @media screen and (max-width: 768px) {
