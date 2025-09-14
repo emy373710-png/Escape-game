@@ -52,7 +52,7 @@ header {
     width: 100%;
     z-index: 1000;
     background-color: #0A0A09(255, 255, 255, 0.8);
-    padding: 1rem 10vw;
+    /* padding: 1rem 10vw; */
 }
 
 nav {
@@ -60,10 +60,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 20px 20px;
-    /* max-width: 1200px; */
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding: 15px 15px;
+    max-width: 1200px;
+    /* padding-left: 10vw;
+    padding-right: 10vw; */
 }
 
 .logo {
